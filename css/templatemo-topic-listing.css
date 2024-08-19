@@ -12,13 +12,13 @@ https://templatemo.com/tm-590-topic-listing
 :root {
   --white-color:                  #ffffff;
   --primary-color:                black;
-  --secondary-color:              orange;
+  --secondary-color:              #F2F1EB;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          orange;
+  --custom-btn-bg-color:          #F2F1EB;
   --custom-btn-bg-hover-color:    blue;
   --dark-color:                   #000000;
   --p-color:                      #717275;
-  --border-color:                 orange;
+  --border-color:                 #F2F1EB;
   --link-hover-color:             blue;
 
   --body-font-family:             'Open Sans', sans-serif;
@@ -107,9 +107,9 @@ p {
 }
 
 ul li {
-  color: var(--p-color);
+  color: black;
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-normal);
+  font-weight:600;
 }
 
 a, 
@@ -125,7 +125,7 @@ a {
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  color: #96C9F4;
 }
 
 b,
@@ -155,6 +155,20 @@ strong {
   width: 100%;
   height: 100%;
   opacity: 0.85;
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-x: 0;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: black;
+  --bs-nav-link-hover-color: #96C9F4;
+  --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 .section-overlay + .container {
@@ -210,7 +224,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  background: #96C9F4;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -227,13 +241,13 @@ strong {
 }
 
 .custom-border-btn {
-  background: transparent;
-  border: 2px solid var(--custom-btn-bg-color);
-  color: var(--custom-btn-bg-color);
+  background: #96C9F4;
+  border: 2px solid #96C9F4;
+  color: ;
 }
 
 .custom-border-btn:hover {
-  background: var(--custom-btn-bg-color);
+  background: blue;
   border-color: transparent;
   color: var(--white-color);
 }
@@ -312,10 +326,10 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--white-color);
+  color: black;
   font-family: var(--title-font-family); 
   font-size: var(--menu-font-size);
-  font-weight: var(--font-weight-medium);
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   position: relative;
@@ -491,7 +505,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: linear-gradient(15deg, white 0%, orange 100%);
+  background-image: linear-gradient(15deg, white 0%, #96C9F4 100%);
   position: relative;
   overflow: hidden;
   padding-top: 150px;
@@ -910,7 +924,7 @@ blockquote {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: #96C9F4;
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -998,7 +1012,7 @@ blockquote {
 }
 
 .site-footer-link {
-  color: var(--secondary-color);
+  color: black;
   font-size: var(--copyright-font-size);
   font-weight: var(--font-weight-medium);
   line-height: normal;
@@ -1024,9 +1038,9 @@ blockquote {
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
+  background: #96C9F4;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: black;
   font-size: var(--copyright-font-size);
   display: block;
   margin-right: 10px;
